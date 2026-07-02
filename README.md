@@ -16,16 +16,16 @@ _**Click any of the projects below to view the readme and live demo of the proje
 
 <table>
   <tr>
-    <td>
+    <td width="50%" valign="top">
       <a href="./Frontend-Projects/01-single-page-cv/">
-        <img src="assets/images/single-page-cv.png" alt="Single Page CV" width="100%">
+        <img src="assets/images/single-page-cv.png" alt="Single Page CV" style="width: 100%; height: 250px; object-fit: cover; object-position: top;">
       </a>
       <br>
       <p align="center"><b>Single-Page CV</b></p>
     </td>
-    <td>
-      <a href="./Frontend-Projects/02-next-project/">
-        <img src="assets/images/placeholder.svg" alt="Next Project" width="100%">
+    <td width="50%" valign="top">
+      <a href="#">
+        <img src="https://placehold.co/600x400" alt="Basic HTML Website" style="width: 100%; height: 250px; object-fit: cover; object-position: top;">
       </a>
       <br>
       <p align="center"><b>Basic HTML Website</b></p>
