@@ -10,12 +10,27 @@ This section contains projects built from the [roadmap.sh/frontend](https://road
 
 ### Projects List
 
-[singlePageCv](https://roadmap.sh/projects/single-page-cv),
+[singlePageCv](https://roadmap.sh/projects/single-page-cv)
 
 _**Click any of the projects below to view the readme and live demo of the projects.**_
 
-<p align="left">
-    <a href='/Frontend-Projects/01-single-page-cv/'>
-        <img width="48%" src="/assets/images/single-page-cv.png" alt="single-page-cv" />
-    </a>
-</p>
+<table>
+  <tr>
+    <td>
+      <a href="./Frontend-Projects/01-single-page-cv/">
+        <img src="assets/images/single-page-cv.png" alt="Single Page CV" width="100%">
+      </a>
+      <br>
+      <p align="center"><b>Single-Page CV</b></p>
+    </td>
+    <td>
+      <a href="./Frontend-Projects/02-next-project/">
+        <img src="assets/images/placeholder.png" alt="Next Project" width="100%">
+      </a>
+      <br>
+      <p align="center"><b>Basic HTML Website</b></p>
+    </td>
+  </tr>
+</table>
+
+---
