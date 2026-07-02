@@ -25,7 +25,7 @@ _**Click any of the projects below to view the readme and live demo of the proje
     </td>
     <td>
       <a href="./Frontend-Projects/02-next-project/">
-        <img src="assets/images/placeholder.png" alt="Next Project" width="100%">
+        <img src="assets/images/placeholder.svg" alt="Next Project" width="100%">
       </a>
       <br>
       <p align="center"><b>Basic HTML Website</b></p>
