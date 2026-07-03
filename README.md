@@ -5,16 +5,17 @@ Welcome to my repository showcasing projects built as part of the learning paths
 ---
 
 <div align="center">
-  
-  [![Roadmap.sh Profile](https://img.shields.io/badge/roadmap.sh-Profile-000000?style=for-the-badge&logo=roadmap.sh&logoColor=white)](https://roadmap.sh)
-  [![Frontend Path](https://img.shields.io/badge/Path-Frontend-ff69b4?style=for-the-badge&logo=html5&logoColor=white)](https://roadmap.sh/frontend)
-  [![Completed Projects](https://img.shields.io/badge/Projects-1%20Completed-brightgreen?style=for-the-badge)](https://roadmap.sh/frontend/projects)
-  
+
+[![Roadmap.sh Profile](https://img.shields.io/badge/roadmap.sh-Profile-000000?style=for-the-badge&logo=roadmap.sh&logoColor=white)](https://roadmap.sh)
+[![Frontend Path](https://img.shields.io/badge/Path-Frontend-ff69b4?style=for-the-badge&logo=html5&logoColor=white)](https://roadmap.sh/frontend)
+[![Completed Projects](https://img.shields.io/badge/Projects-1%20Completed-brightgreen?style=for-the-badge)](https://roadmap.sh/frontend/projects)
+
 </div>
 
 ---
 
 ## 📂 Table of Contents
+
 - [🎨 Frontend Projects](#-frontend-projects)
 - [⚙️ Backend & Other Paths (Future)](#️-backend--other-paths-future)
 - [🛠️ How to Add a New Project](#-how-to-add-a-new-project)
@@ -37,7 +38,7 @@ This section contains projects built following the [Roadmap.sh Frontend Develope
       <h3>📄 Single-Page CV</h3>
       <p align="left">A responsive, clean, single-page interactive CV built with semantic HTML and custom CSS styles.</p>
       <p>
-        <a href="./Frontend-Projects/01-single-page-cv/">
+        <a href="https://htmlpreview.github.io/?https://github.com/hatimrampurawala-bit/roadmap.sh-projects/blob/master/Frontend-Projects/01-single-page-cv/index.html">
           <img src="https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square" alt="Demo">
         </a>
         &nbsp;
@@ -79,7 +80,9 @@ This section contains projects built following the [Roadmap.sh Frontend Develope
 Adding a new project is extremely easy! Follow these steps:
 
 ### 1. Structure Your Directory
+
 Create your project folder inside the category directory (e.g., `Frontend-Projects/`):
+
 ```text
 Frontend-Projects/
 ├── 01-single-page-cv/
@@ -89,35 +92,52 @@ Frontend-Projects/
 ```
 
 ### 2. Save a Preview Image
+
 Take a screenshot of your completed project and save it to the global assets directory:
+
 - Path: `assets/images/your-project-name.png` (or `.jpg`, `.svg`)
 
 ### 3. Update the Grid in README.md
+
 Locate the `<table width="100%">` element in the respective section of `README.md` and insert/replace a cell (`<td>`) with the template below.
 
 #### Cell Template:
+
 ```html
-    <td width="50%" align="center" valign="top">
-      <br>
-      <a href="./Frontend-Projects/XX-your-project-folder/">
-        <img src="assets/images/your-project-image.png" alt="Project Name" width="100%" style="border-radius: 8px; border: 1px solid #ddd; max-height: 250px; object-fit: cover;">
-      </a>
-      <h3>🚀 Project Name</h3>
-      <p align="left">A brief description of what the project is and what you learned.</p>
-      <p>
-        <a href="./Frontend-Projects/XX-your-project-folder/">
-          <img src="https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square" alt="Demo">
-        </a>
-        &nbsp;
-        <a href="https://roadmap.sh/projects/your-challenge-id">
-          <img src="https://img.shields.io/badge/Roadmap.sh-Challenge-blue?style=flat-square" alt="Challenge">
-        </a>
-      </p>
-    </td>
+<td width="50%" align="center" valign="top">
+  <br />
+  <a href="./Frontend-Projects/XX-your-project-folder/">
+    <img
+      src="assets/images/your-project-image.png"
+      alt="Project Name"
+      width="100%"
+      style="border-radius: 8px; border: 1px solid #ddd; max-height: 250px; object-fit: cover;"
+    />
+  </a>
+  <h3>🚀 Project Name</h3>
+  <p align="left">
+    A brief description of what the project is and what you learned.
+  </p>
+  <p>
+    <a href="./Frontend-Projects/XX-your-project-folder/">
+      <img
+        src="https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square"
+        alt="Demo"
+      />
+    </a>
+    &nbsp;
+    <a href="https://roadmap.sh/projects/your-challenge-id">
+      <img
+        src="https://img.shields.io/badge/Roadmap.sh-Challenge-blue?style=flat-square"
+        alt="Challenge"
+      />
+    </a>
+  </p>
+</td>
 ```
 
 > [!TIP]  
 > **Row Management**:
+>
 > - If a row (`<tr>`) has only one project, add the template as the second `<td>` inside that same row.
 > - If the row is already full (has two projects), create a new row `<tr> ... </tr>` underneath it and paste the template inside.
-
