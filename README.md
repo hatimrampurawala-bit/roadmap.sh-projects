@@ -47,16 +47,18 @@ This section contains projects built following the [Roadmap.sh Frontend Develope
         </a>
       </p>
     </td>
-    <!-- Project 2: Basic HTML Website (Placeholder) -->
+    <!-- Project 2: Basic HTML Website -->
     <td width="50%" align="center" valign="top">
       <br>
-      <a href="#">
-        <img src="assets/images/placeholder.svg" alt="Basic HTML Website Placeholder" width="100%" style="border-radius: 8px; border: 1px solid #ddd; max-height: 250px; object-fit: cover;">
+      <a href="./Frontend-Projects/02-basic-html-website/">
+        <img src="assets/images/basic-html-website.png" alt="Single Page CV" width="100%" style="border-radius: 8px; border: 1px solid #ddd; max-height: 250px; object-fit: cover;">
       </a>
-      <h3>🌐 Basic HTML Website</h3>
+      <h3> 🌐 Basic HTML Website</h3>
       <p align="left">A multi-page HTML website focusing on navigation, semantic structure, and content layout.</p>
       <p>
-        <img src="https://img.shields.io/badge/Status-Upcoming-orange?style=flat-square" alt="Status">
+        <a href="https://htmlpreview.github.io/?https://github.com/hatimrampurawala-bit/roadmap.sh-projects/blob/master/Frontend-Projects/02-basic-html-website/index.html">
+          <img src="https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square" alt="Demo">
+        </a>
         &nbsp;
         <a href="https://roadmap.sh/projects/basic-html-website">
           <img src="https://img.shields.io/badge/Roadmap.sh-Challenge-blue?style=flat-square" alt="Challenge">
