@@ -68,9 +68,8 @@ This section contains projects built following the [Roadmap.sh Frontend Develope
   </tr>
 </table>
 
----
 
-## ⚙️ Backend & Other Paths (Future)
+<!--## ⚙️ Backend & Other Paths (Future)
 
 > [!NOTE]  
 > Projects for Backend, DevOps, or Fullstack paths will be cataloged here once initiated.
@@ -142,4 +141,4 @@ Locate the `<table width="100%">` element in the respective section of `README.m
 > **Row Management**:
 >
 > - If a row (`<tr>`) has only one project, add the template as the second `<td>` inside that same row.
-> - If the row is already full (has two projects), create a new row `<tr> ... </tr>` underneath it and paste the template inside.
+> - If the row is already full (has two projects), create a new row `<tr> ... </tr>` underneath it and paste the template inside.-->
