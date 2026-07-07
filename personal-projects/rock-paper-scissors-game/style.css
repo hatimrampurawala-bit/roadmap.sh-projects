@@ -1,0 +1,63 @@
+/* Reset default browser margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. Center the .box container perfrectly on the screen */
+body {
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; /* Vertical center */
+  min-height: 100vh; /* Full screen height */
+  width: 100%; /* Full width */
+  background-color: #f0f2f5; /* Light background */
+  font-family: sans-serif;
+}
+
+/* 2. Style for the outer box container */
+.box {
+  width: 100%;
+  max-width: 600px; /* Limits max width on large screens */
+  padding: 20px;
+}
+
+/* 3. Center everything inside the game-area relative to the H1 */
+.game-area {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers H1, H2s, and buttons horizontally */
+  justify-content: center; /* Centers items vertically if height is given */
+  text-align: center; /* Ensures all text inside is centered */
+
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Spacing out elements for a clean UI */
+h1 {
+  margin-bottom: 24px; /* Push content below the title */
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 12px; /* Spacing between scores */
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Style buttons to align nicely under the text */
+button {
+  margin: 10px 5px 0 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
