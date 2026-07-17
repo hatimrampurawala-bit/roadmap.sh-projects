@@ -8,7 +8,7 @@ Welcome to my repository showcasing projects built as part of the learning paths
 
 [![Roadmap.sh Profile](https://img.shields.io/badge/roadmap.sh-Profile-000000?style=for-the-badge&logo=roadmap.sh&logoColor=white)](https://roadmap.sh)
 [![Frontend Path](https://img.shields.io/badge/Path-Frontend-ff69b4?style=for-the-badge&logo=html5&logoColor=white)](https://roadmap.sh/frontend)
-[![Completed Projects](https://img.shields.io/badge/Projects-3%20Completed-brightgreen?style=for-the-badge)](https://roadmap.sh/frontend/projects)
+[![Completed Projects](https://img.shields.io/badge/Projects-4%20Completed-brightgreen?style=for-the-badge)](https://roadmap.sh/frontend/projects)
 
 </div>
 
@@ -83,6 +83,24 @@ This section contains projects built following the [Roadmap.sh Frontend Develope
         &nbsp;
         <a href="https://www.youtube.com/watch?v=ec8vSKJuZTk&t=1301s">
           <img src="https://img.shields.io/badge/YouTube-Challenge-blue?style=flat-square" alt="Challenge">
+        </a>
+      </p>
+    </td>
+    <!-- Project 4: Personal Portfolio -->
+    <td width="50%" align="center" valign="top">
+      <br>
+      <a href="./Frontend-Projects/03-personal-portfolio/">
+        <img src="assets/images/personal-portfolio.png" alt="Single Page CV" width="100%" style="border-radius: 8px; border: 1px solid #ddd; max-height: 250px; object-fit: cover;">
+      </a>
+      <h3> 📟 Personal Portfolio</h3>
+      <p align="left">Convert the previous simple HTML website into a personal portfolio.</p>
+      <p>
+        <a href="https://htmlpreview.github.io/?https://github.com/hatimrampurawala-bit/roadmap.sh-projects/blob/master/Frontend-Projects/03-personal-portfolio/index.html">
+          <img src="https://img.shields.io/badge/Live%20Demo-View-brightgreen?style=flat-square" alt="Demo">
+        </a>
+        &nbsp;
+        <a href="https://roadmap.sh/projects/portfolio-website">
+          <img src="https://img.shields.io/badge/Roadmap.sh-Challenge-blue?style=flat-square" alt="Challenge">
         </a>
       </p>
     </td>
